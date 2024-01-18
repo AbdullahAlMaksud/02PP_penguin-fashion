@@ -3,9 +3,71 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Penguin Fashion Shop</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Montserrat:wght@100;300;400;500;600;700;800;900&family=Roboto:wght@300;400;500;700;900&display=swap" rel="stylesheet">
+
+
+    
 </head>
 <body>
+    <style>
+        .font-bebas{
+            font-family: 'Bebas Neue', sans-serif;
+        }
+        .font-roboto{
+            font-family: 'Roboto', sans-serif;
+        }
+        .font-monte{
+            font-family: 'Montserrat', sans-serif;
+        }
+    </style>
+    <header class="bg-[#FFFBF0]">
+        <nav class="flex flex-col md:flex-row justify-between py-4 px-5 md:px-20 items-center shadow-md sticky top-0">
+            <div class="flex gap-2 items-center">
+                <div>
+                    <img src="./icons/icon.svg" alt="">
+                </div>
+                <div class="uppercase font-monte font-bold text-2xl ">
+                    <span class="text-[#A4BC46]">Penguin</span>Fashion
+                </div>
+            </div>
+            <div>
+                <ul class="flex gap-4 md:gap-8">
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">Products</a></li>
+                    <li><a href="">About us</a></li>
+                    <li><a href=""></a>Contact us</li>
+                </ul>
+            </div>
+        </nav>
+        <section class="flex flex-col-reverse md:flex-row items-center justify-center px-5 gap-4 pt-8 pb-12 md:pb-20">
+            <div class="flex flex-col items-start gap-2">
+                <h2 class="font-bebas text-7xl pt-3"><span class="text-orange-400">Be the Penguins</span><br>Of Winter</h2>
+                <p class="font-roboto">Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae, a.</p>
+                <button class="py-4 px-9 bg-gradient-to-b from-[#A4BC46] to-[#85A019] rounded-lg font-medium uppercase text-white  flex gap-1">
+                    <svg xmlns="http://www.w3.org/2000/svg" fill="white" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
+                        <path stroke-linecap="round" stroke-linejoin="round" d="M2.25 3h1.386c.51 0 .955.343 1.087.835l.383 1.437M7.5 14.25a3 3 0 0 0-3 3h15.75m-12.75-3h11.218c1.121-2.3 2.1-4.684 2.924-7.138a60.114 60.114 0 0 0-16.536-1.84M7.5 14.25 5.106 5.272M6 20.25a.75.75 0 1 1-1.5 0 .75.75 0 0 1 1.5 0Zm12.75 0a.75.75 0 1 1-1.5 0 .75.75 0 0 1 1.5 0Z" />
+                      </svg>
+
+                <!-- <svg xmlns="http://www.w3.org/2000/svg" fill="white" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="w-6 h-6">
+                        <path strokeLinecap="round" strokeLinejoin="round" d="M2.25 3h1.386c.51 0 .955.343 1.087.835l.383 1.437M7.5 14.25a3 3 0 0 0-3 3h15.75m-12.75-3h11.218c1.121-2.3 2.1-4.684 2.924-7.138a60.114 60.114 0 0 0-16.536-1.84M7.5 14.25 5.106 5.272M6 20.25a.75.75 0 1 1-1.5 0 .75.75 0 0 1 1.5 0Zm12.75 0a.75.75 0 1 1-1.5 0 .75.75 0 0 1 1.5 0Z" />
+                </svg> -->
+                Buy now</button>
+            </div>
+            <div>
+                <img src="./images/model.png" alt="">
+            </div>
+        </section>
+        <main>
+
+        </main>
+        <footer>
+
+        </footer>
+    </header>
     
 </body>
 </html>
